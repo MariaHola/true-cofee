@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    height: 100vh;
+    perspective: 2px;
+}
+
+section {
+    transform-style: preserve-3d;
+    position: relative;
+    height: 75vh;
+    display: grid;
+    place-items: center;
+}
