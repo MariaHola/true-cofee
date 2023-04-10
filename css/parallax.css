@@ -1,0 +1,25 @@
+.no-parallax {
+    color: #171717;
+    background: #efe9e4;
+    z-index: 1;
+}
+
+.parallax {
+    height: 50vh;
+}
+
+.parallax::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    transform: 
+        translateZ(-1px) scale(1.5);
+    background-size: 100%;
+}
+
+.parallax::after {
+    background-color: #9baecc;
+    background-size: cover;
+}
