@@ -7,4 +7,11 @@ button.addEventListener("click", () => {
     greeting.remove();
 });
 
+let scrollUpBtn = document.querySelector(".js-scrollUpBtn");
+
+scrollUpBtn.addEventListener("click", () => {
+    scroll(0, 0);
+});
+
+
 
